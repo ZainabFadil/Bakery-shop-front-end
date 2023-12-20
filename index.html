@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Bakery</title> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bakery.css">  
+</head>
+<body  id="2b">
+<!-----------     start navbar   ------------->
+<nav class="navbar navbar-expand-lg sticky-top " >
+  <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./img/icon2.png" alt=""  class="icon-nav"> </a>
+        <p class=" mt-3 bakery_header">Bakery</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#" >Home</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link p-2  p-lg-3 " href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2  p-lg-3 " href="#product">product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2   p-lg-3 " href="#Team">Team</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link p-2  p-lg-3 " href="#Testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  p-2  p-lg-3 " href="#Contact">Contact</a>
+            </li>
+          </ul>
+          <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+    </div>
+</nav>
+      <!-----------     end navbar   ------------->
+      <!-----------     start slider ------------->
+  <div class="slider">
+    <div id="main-slider" class="carousel slide">
+      <div class="carousel-inner">
+          <b>//THE BEST BAKERY</b>
+          <h1>we bake with passion</h1>
+          <p>Vero elitr justo clita Lorem.ipsum dolor sed stet sit diam rebum ipsum.</p>
+        <button type="button" class="btn">Read More</button>
+          <div class="overlay"></div>
+          <div class="carousel-item carousel-one active"></div>
+          <div class="carousel-item carousel-two"></div>
+          <div class="carousel-item carousel-three"></div>
+      </div>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </div>
+  <!------------- end slider -------------->
+  <!------------- start About ------------->
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class=" col-sm-12 col-lg-6 ">
+          <img class="img-about" src="img/about1.jpg" id="About"  alt="" />
+        </div>
+        <div class="txt col-sm-12 col-lg-6 p-4 mt-3">
+          <b class="hed-about">//ABOUT US</b>
+          <h1 class="title-about">We Bake Every Item From The Core Of Our Hearts</h1>
+          <p class="prg-about">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+          </p>
+          <p class="prg-about">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+          </p>
+          <button type="button" class="btn-about">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------- end About --------------->
+  <!------------- start product------------> 
+  <div class="product">
+    <div class="hed">
+      <b class="hed-product" id="product">//BAKERY PRODUCTS</b>
+      <h1 class="title-product" > Explore The Categories Of <br> Our Bakery Products</h1>
+    </div>
+    <div class="card-container">
+      <div class="card-product">
+        <img src="./img/5.jpg" class="img-product">
+          <div class="card-content">
+            <h3 class="name-product"> Cake</h3>
+            <p class="dis-product"> cake with choclate </p>
+            <p class="price"> $25 - $35</p>
+          </div>
+      </div>
+      <div class="card-product">
+        <img src="./img/6.jpg"  class="img-product">
+          <div class="card-content">
+            <h3 class="name-product"> Bread</h3>
+            <p class="dis-product"> Bread chips with sesame</p>
+            <p class="price"> $30 - $50</p>
+          </div>
+      </div>
+      <div class="card-product">
+        <img src="./img/7.jpg"  class="img-product">
+          <div class="card-content">
+            <h3 class="name-product"> Cookies</h3>
+            <p class="dis-product">Delicious Crowds</p>
+            <p class="price"> $22 - $40</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!------------- end product -------------->
+  <!------------- start team  -------------->
+  <div class="team">
+    <div class="container ">
+      <!-- Header -->
+      <div class="row">
+        <div class="col-12 mb-3">  
+          <p class="text-center fw-bold hed-team " id="Team">//OUR TEAM  </p>       
+          <h1 class="text-center fw-bold title-team "> There're Our Talented Chefs</h1>          
+        </div>
+     </div> 
+      <!-- Cards -->
+      <div class="row"> 
+         <!-- card 1 -->
+          <div class=" col-sm-6 col-lg-3">
+             <div class="card mb-5  " >
+                  <img src="./img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5 text-center font fw-bold name-team">Mike Dean</p>
+                  <p class="card-text  text-center font jop-team ">Chef-Owner</p>
+                </div>
+                <div class="card-body second d-flex justify-content-around">
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/instagram.png" alt="" class="icon-team">  
+                  </a> 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/social.png" alt=""  class="icon-team">  
+                 </a>                 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/twitter.png" alt=""  class="icon-team">  
+                  </a>     
+                </div>
+              </div>
+          </div> 
+         <!-- card 2 -->
+          <div class=" col-sm-6 col-lg-3">
+             <div class="card mb-5 ">
+                  <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5 text-center font fw-bold name-team">Jack Paul</p>
+                  <p class="card-text  text-center font jop-team">Executive Chef</p>
+                </div>
+                <div class="card-body second d-flex justify-content-around">                  
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/instagram.png" alt="" class="icon-team">  
+                  </a> 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/social.png" alt="" class="icon-team">  
+                  </a>                 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/twitter.png" alt="" class="icon-team">  
+                  </a>     
+                </div>
+              </div>
+          </div> 
+         <!-- card 3 -->
+          <div class=" col-sm-6 col-lg-3 cols-md-3">
+             <div class="card mb-5" >
+                  <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5 text-center font fw-bold name-team">Tyler Scott</p>
+                  <p class="card-text  text-center font jop-team">Sous Chef</p>
+                </div>
+                <div class="card-body second d-flex justify-content-around">                     
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/instagram.png" alt="" class="icon-team">  
+                  </a> 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/social.png" alt="" class="icon-team">  
+                  </a>                 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/twitter.png" alt="" class="icon-team">  
+                  </a>  
+                </div>
+              </div>
+          </div> 
+         <!-- card 4 -->
+         <div class=" col-sm-6 col-lg-3 ">
+             <div class="card mb-5 " >
+                  <img src="./img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5 text-center font fw-bold name-team">Hannah Steve</p>
+                  <p class="card-text  text-center font jop-team">Senior Chef</p>
+                </div>
+                <div class="card-body second d-flex justify-content-around">                
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/instagram.png" alt="" class="icon-team">  
+                  </a> 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/social.png" alt="" class="icon-team">  
+                  </a>                 
+                  <a href="https://www.youtube.com/">  
+                    <img src="./img/twitter.png" alt="" class="icon-team">  
+                  </a>                       
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-------------- end team  ------------------>
+  <!------------- start Features ------------->
+     
+  <div class="feature">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 mb-5">
+        <i class="fa-solid fa-certificate icon-feature fa-4x"></i>
+        <p class="hed-feature">Years Experience</p>
+        <h1 class="num-feature">50</h1>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-5 ">
+        <i class="fa-solid fa-people-group icon-feature fa-4x"></i>
+        <p class="hed-feature">Skilled Professional</p>
+        <h1 class="num-feature">175</h1>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-5">
+        <i class="fa-solid fa-bread-slice icon-feature fa-4x"></i>
+        <p class="hed-feature">Total Products</p> 
+        <h1 class="num-feature">135</h1>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-5">
+        <i class="fa-solid fa-cart-shopping icon-feature fa-4x"></i> 
+        <p class="hed-feature">Order Everyday</p>
+        <h1 class="num-feature">9357</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!------------- end Features -------------->
+  <!------------- start tesimonials -------------->
+  <div class="tesimonials">
+    <div class="container text-center">
+      <b class="hed-tesimonials" id="Testimonials"> //Testimonials</b>
+      <h1 class="title-tesimonials"> Some of your opinions that we love and <br> always support us, Thank you</hi>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3 text-center">
+            <div class="profile">
+              <img src="./img/mariam.jpg" class="user">
+              <blockquote class="blockquote">Wow! Super cute place with amazing pastries. The staff was also super nice and welcoming. Definitely recommend a trip!</blockquote>
+              <h2>mariam</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3  text-center">
+            <div class="profile">
+              <img src="img/nermeen.jpg" class="user">
+                <blockquote class="blockquote"> Lots of great pastries. Nice people. Good coffee and a squeaky clean restroom A place with self respect! I like it.</blockquote>
+                <h2>Nermeen</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3  text-center">
+              <div class="profile">
+                  <img src="img/Ali.jpg" class="user">
+                  <blockquote class="blockquote"> Go get these donuts and various pastries. You will not be disappointed as they are the best. Local owned and operated.</blockquote>
+                  <h2> Ali </h2>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3  text-center ph-bot">
+            <div class="profile">
+              <img src="./img/Zainab.jpg" class="user">
+              <blockquote class="blockquote"> Great neighborhood bakery. Excellent selection of donuts, pastries and cupcakes. If you love sweet treats, you need to visit!</blockquote>
+              <h2>Zainab</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3 text-center ph-bot">
+            <div class="profile">
+              <img src="img/ranim.jpg" class="user">
+              <blockquote class="blockquote"> What a great bakery! One of my favorites. Amazing selection of baked goods, delicious coffee, and well decorated interior.</blockquote>
+              <h2>Ranim</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3   text-center ph-bot">
+            <div class="profile">
+              <img src="img/adel.jpg" class="user">
+              <blockquote class="blockquote"> This bakery is a slice of heaven. All the pastries are beautiful and delicious, and the menu is fantastic, too. you must try it</blockquote>
+              <h2>Adel</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------- end tesimonials ----------->
+  <!------------- start contact ------------->
+  <div class="contact">
+    <div class="container justify-content-center">
+ 
+      <div class="text-center" >
+        <b class="hed-contact" id="Contact">//Contact Us</b>
+        <h1 class="title-contact">If You Have Any Query,<br> Please Contact Us</h1>
+      </div>
+      <div class="row justify-content-center my-3 ">
+          <div class="col-lg-8">
+            <form action="" >
+              <div class="row">
+              <div class="col-lg-6">
+              <label for="name" class="form-label"></label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="col-lg-6">
+              <label for="email" class="form-label "></label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+          </div>
+              <label for="subject" class="form-label"></label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+  
+              <label for="massage" class="form-label"></label>
+              <textarea class="form-control" id="massage" placeholder="Massage" rows="3"></textarea>
+          <div class="text-center mb-7">
+              <button type="submit" class="btn btn-secondary btn-contact">Send Massage</button>
+            </div>
+  </form>
+  </div>
+
+</div>
+</div>
+  </div> 
+<!------------- end contact --------------> 
+ 
+<!------------- start footer --------------> 
+  <div class="footer">
+    <div class="container-fluid kol p-4 text-center d-flex flex-column flex-wrap">
+      <div class="row">      
+        <div class="col-lg-4  d-flex flex-column justify-content-center align-items-center">
+          <div class=" col-md-6 sid1" >
+            <h4 class="text-light mb-4 hr">Office Address</h4>
+            <p class="mb-2 loc"><i class="fa fa-map-marker-alt me-3 loc"></i>123 Street ,Ismailia ,Egypt</p>
+            <p class="mb-2 ph"><i class="fa-solid fa-phone me-3 ml-2 ph "></i>+20 012 345 6789</p>
+            <p class="mb-2 mal"><i class="fa-solid fa-envelope me-3 mal"></i>info@example.com </p> 
+            <div class="imgcont d-flex justify-content-between">
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-facebook-f icon-social"></i> 
+              </a>
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-twitter icon-social"></i>
+              </a>
+              <a href="https://twitter.com/?lang=ar">
+                <i class="fa-brands fa-linkedin-in icon-social"></i>
+              </a>
+              <a href="https://twitter.com/?lang=ar">
+                <i class="fa-brands fa-youtube icon-social"></i>
+              </a>
+          </div>
+        </div> 
+      </div>
+      <!-- Quick Links -->
+      <div class="quick-link col-lg-4 col-md-6  d-flex flex-column justify-content-center">          
+          <div class="cont">
+              <h4 class="Ql">Quick Links</h4>  
+          <div class="row">
+            <div class="col">
+          <ul class="list-unstyled">
+             <li>Contact Us</li> 
+             <li>About Us</li> 
+             <li>Our Services</li> 
+             <li>Terms&Conditions</li> 
+             <li>Support</li> 
+          </ul> 
+        </div>  
+        <div class="col">
+          <ul class="list-unstyled">   
+             <li>team</li> 
+             <li>contact</li> 
+             <li>product</li> 
+             <li>Conditions</li> 
+             <li>Testimonials</li> 
+          </ul> 
+        </div>         
+      </div>    
+    </div>   
+  </div>
+      <div class="col-lg-2 col-md-6 footercss">
+        <div >
+          <h4 class="gal mb-10 ml-2 pt-4">Photo Gallery</h4>
+        </div>
+        <div class="footercss  d-flex justify-content-evenly">
+          <div class="row ph1">
+            <a href="">
+              <img src="./img/footer1.jpg" class="ph-foot1" alt="">
+            </a>
+            <a href="">
+              <img src="./img/footer2.jpg " class="ph-foot"alt="">
+             </a>
+          </div>
+          <div class="row ph2">
+            <a href="">
+              <img src=" ./img/footer3.jpg" class="ph-foot1" alt="">
+            </a>         
+            <a href="">
+              <img src="./img/footer4.jpg" class="ph-foot" alt="">
+            </a>
+          </div>
+          <div class="row ph3">
+            <a href="">
+              <img src=" ./img/footer5.jpg" class="ph-foot1" alt="">
+            </a>         
+            <a href="">
+              <img src="./img/footer6.jpg" class="ph-foot" alt="">
+            </a>
+          </div>  
+        </div>
+        <div>
+        <a href="#2b"><i class="fa-solid fa-circle-arrow-up icon-arrow"></i></a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!------------- end footer ------------>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
